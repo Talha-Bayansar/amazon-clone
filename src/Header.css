@@ -1,70 +1,71 @@
-.header{
-    background-color: #131921;
-    display: flex;
-    align-items: center;
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
 }
 
-.header__logo{
-    width: 100px;
-    margin: 18px 20px 0 20px;
-    object-fit: contain;
+.header__logo {
+  width: 100px;
+  margin: 18px 20px 0 20px;
+  object-fit: contain;
 }
 
-.header__search{
-    display: flex;
-    flex: 1;
+.header__search {
+  display: flex;
+  flex: 1;
 }
 
-.header__searchInput{
-    height: 40px;
-    border: none;
-    width: 100%;
-    outline: none;
-    border-radius: 5px 0px 0px 5px;
+.header__searchInput {
+  height: 40px;
+  border: none;
+  width: 100%;
+  outline: none;
+  border-radius: 5px 0px 0px 5px;
 }
 
-.header__searchIcon{
-    padding: 5px;
-    height: 40px !important;
-    width: 40px !important;
-    background-color: #cd9042;
-    border-radius: 0px 5px 5px 0px;
+.header__searchIcon {
+  padding: 5px;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #cd9042;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 
-.header__nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.header__link{
-    text-decoration: none;
+.header__link {
+  text-decoration: none;
 }
 
-.header__option{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px;
+.header__option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
 }
 
-.header__optionBasket{
-    color: white;
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
+.header__optionBasket {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
 }
 
-.header__optionNumber{
-    margin-left: 5px;
+.header__optionNumber {
+  margin-left: 5px;
 }
 
-.header__optionLineOne{
-    font-size: 12px;
-    color: rgb(185, 185, 185);
+.header__optionLineOne {
+  font-size: 12px;
+  color: rgb(185, 185, 185);
 }
 
-.header__optionLineTwo{
-    font-size: 16px;
-    font-weight: 700;
+.header__optionLineTwo {
+  font-size: 16px;
+  font-weight: 700;
 }
